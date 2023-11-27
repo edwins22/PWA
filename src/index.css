@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card-website:hover {
+  background: rgb(33, 106, 110);
+  cursor: pointer;
+}
+
+
+style
+  .center-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 10px; /* Ajusta la altura según tus necesidades */
+  }
+
+  
+  .login {
+    background-color: rgb(159, 159, 248);
+    color: rgb(0, 0, 0); 
+    border: 1px solid rgb(159, 159, 248);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 20px; 
+   
+ 
+  }
+
+  .profile {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-family: 'Cursive' ; /* Aplica la cursiva */
+    font-size: 18px; /* Cambia el tamaño de la letra a 18 píxeles, ajusta según sea necesario */
+  }
+
+  .img {
+    
+    border: 5px solid #fff; /* Borde blanco sólido de 2 píxeles */
+  border-radius: 20px; /* Añade esquinas redondeadas */
+  margin: 5px;
+  }
+
+   
