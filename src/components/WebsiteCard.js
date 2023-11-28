@@ -2,9 +2,12 @@ import { updateWebsite, deleteWebsite } from "../firebase/api";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 
+
 export function WebsiteCard({ link }) {
   const navigate = useNavigate();
 
+
+  
   const onUpdateLink = async (id) => {
     const updatedLink = { ...link, completed: !link.completed };
     await updateWebsite(id, updatedLink);
@@ -33,11 +36,17 @@ export function WebsiteCard({ link }) {
   const isTaskCompleted = link.completed;
 
   return (
+
+
+    
     <div
       className={`card mb-3 card-website ${isTaskCompleted ? "completed-task" : "pending-task"}`}
       key={link.id}
       onClick={handleClick}
     >
+
+
+
       <div className="card-body">
         <div className="d-flex justify-content-between">
           <h4>{link.name}</h4>
